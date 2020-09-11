@@ -22,10 +22,6 @@ body {
 	);
 }
 
-.invisible {
-    display: none;
-}
-
 .btn {
     border: 2px solid black;
     margin: 0 auto;
@@ -217,6 +213,10 @@ body {
 
         font-size: 0.7rem;
     }
+}
+
+.invisible {
+    display: none;
 }
 
 // animations
