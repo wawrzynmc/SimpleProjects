@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.14.0/css/all.css" integrity="sha384-HzLeBuhoNPvSl5KYnjx0BT+WB0QEEqLprO+NBkkk5gbc67FTaL7XIGa2w1L0Xbgc" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    <script src="index.js" defer></script>
+    <title>Document</title>
+</head>
+<body>
+    <div class="card validation-card">
+        <div class="card__header">
+            <h2>Form Validation</h2>
+        </div>
+        <div class="card__content">
+            <form action="" class="form" novalidate>
+                <div class="form__form-control">
+                    <label class = "form__label" >Username</label>
+                    <input class = "form__input" type="text" placeholder="Enter user name" id="username">
+                    <i class="far fa-check-circle"></i>
+                    <i class="far fa-times-circle"></i>
+                    <small class = "form__small-error-message">Error message</small>
+                </div>
+    
+                <div class="form__form-control">
+                    <label class = "form__label">Email</label>
+                    <input class = "form__input" type="email" placeholder="Enter email" id="email">
+                    <i class="far fa-check-circle"></i>
+                    <i class="far fa-times-circle"></i>
+                    <small class = "form__small-error-message">Error message</small>
+                </div>
+    
+                <div class="form__form-control">
+                    <label class = "form__label">Password</label>
+                    <input class = "form__input" type="password" placeholder="Enter password" id="password">
+                    <i class="far fa-check-circle"></i>
+                    <i class="far fa-times-circle"></i>
+                    <small class = "form__small-error-message">Error message</small>
+                </div>
+    
+                <div class="form__form-control">
+                    <label class = "form__label">Password check</label>
+                    <input class = "form__input" type="password" placeholder="Enter password" id="password2">
+                    <i class="far fa-check-circle"></i>
+                    <i class="far fa-times-circle"></i>
+                    <small class = "form__small-error-message">Error message</small>
+                </div>
+    
+                <button class = "btn form__btn-submit" type="submit">Submit</button>
+            </form>
+        </div>
+    </div>
+    <div class="card message-card invisible">
+        <div class="card__header">
+            <h2>Form submitted!</h2>
+        </div>
+        <div class="card__content">
+            <div class="card__plane-path">
+                <i class="far fa-envelope-open"></i>
+                <i class="far fa-envelope"></i>
+            </div>
+            <div class="card__information">
+                <p class="card__information-text">Fill the form again</p>
+                <button class="btn card__btn-show-form">Show form!</button>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
